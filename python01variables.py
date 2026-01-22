@@ -61,3 +61,4 @@ texto = 'El numero es: '
 numstr = int(numero)
 numero 
 textstr = int(texto)  # Esto generará un error porque 'El numero es: ' no es un número
+print (textstr + numstr)

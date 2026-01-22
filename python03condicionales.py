@@ -1,0 +1,6 @@
+print('ejemplo de condicionales')
+edad = 18
+if edad >= 18:
+    print('eres mayor de edad')
+else:
+    print('eres menor de edad')

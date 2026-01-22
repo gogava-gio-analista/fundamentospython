@@ -1,0 +1,7 @@
+print('dame un numero: ')
+numero = input()
+print('el numero es: ', numero)
+numero2 = input('dame otro numero: ')
+print('el numero es: ', numero2)
+suma = int (numero) + int (numero2)
+print('la suma es: ', suma)
