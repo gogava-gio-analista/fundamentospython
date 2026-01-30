@@ -56,20 +56,3 @@ elif (resultado == 23):
     letra = "T"
 print("Letra " + letra)
 print("Fin de programa")
-
-
-
-# or
-
-
-
-print("Ejemplo letra DNI")
-
-numero_dni = int(input("Introduzca numero DNI: "))
-
-letras = "TRWAGMYFPDXBNJZSQVHLCKE"
-
-letra = letras[numero_dni % 23]
-
-print("Letra", letra)
-print("Fin de programa")
