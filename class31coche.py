@@ -31,4 +31,5 @@ class Coche:
             print("El coche está detenido. No puede frenar.")
 
     def getvelocidadmaxima(self):
+        print("La velocidad máxima del coche es 180 km/h.")
         return 180
