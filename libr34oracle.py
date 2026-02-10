@@ -5,23 +5,11 @@ print('algo')
 
 sql = "select * from DEPT"
 
-sursor = connection.cursor()
+cursor = connection.cursor()
 
-sursor.execute(sql)
+cursor.execute(sql)
 
-row = sursor.fetchone()
+row = cursor.fetchone()
 
-print(row)
-
-row = sursor.fetchone()
-
-print(row)
-
-row = sursor.fetchone()
-
-print(row)
-
-row = sursor.fetchone()
-
-print(row)
-sursor.close()
+for numero, nombre, localidad in cursor:
+    print(nombre)
