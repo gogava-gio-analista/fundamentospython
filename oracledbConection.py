@@ -8,9 +8,9 @@ user = os.getenv('user')
 password = os.getenv('password')
 dsn = os.getenv('dsn')
 coneccion = oracledb.connect(user=user, password=password, dsn=dsn)
+cursor = coneccion.cursor()
 
 def consulta(sql):
-    cursor = coneccion.cursor()
     cursor.execute(sql)
 
     if sql.strip().lower().startswith("select"):
@@ -26,6 +26,5 @@ def consulta(sql):
         else:
             coneccion.rollback()
             print('cambios no guardados')
-
-
-
+    cursor.close()
+    coneccion.close()
