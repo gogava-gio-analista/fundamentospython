@@ -1,0 +1,457 @@
+
+Obtén respuestas adaptadas a ti
+
+Inicia sesión para obtener respuestas basadas en chats guardados, además de crear imágenes y cargar archivos.
+
+Iniciar sesión
+Tú dijiste:
+cuéntame sobre bigqueri
+
+ChatGPT Plus
+Google BigQuery
+
+https://docs.cloud.google.com/static/bigquery/images/console-tabs.png
+
+https://storage.googleapis.com/gweb-cloudblog-publish/images/BQ_Explained_2.max-900x900.jpg
+
+https://docs.cloud.google.com/static/bigquery/images/stackdriver-metrics-explorer.png
+4
+BigQuery es el data warehouse (almacén de datos) en la nube de Google Cloud. Está diseñado para analizar grandes volúmenes de datos (desde gigabytes hasta petabytes) de forma rápida y sin necesidad de administrar servidores.
+🔎 ¿Para qué sirve?
+Analizar datos masivos con SQL
+Crear dashboards y reportes (por ejemplo con Looker Studio)
+Procesar datos en tiempo real
+Hacer análisis predictivo y machine learning
+Centralizar datos de múltiples fuentes
+⚙️ Características principales
+1️⃣ Serverless (sin servidores)
+No necesitas configurar infraestructura. Google se encarga del escalado automático.
+2️⃣ Muy rápido
+Usa un motor de ejecución distribuido llamado Dremel, optimizado para consultas analíticas.
+3️⃣ Usa SQL estándar
+Permite consultas con Standard SQL, incluyendo:
+JOIN
+Subconsultas
+Funciones analíticas
+JSON
+Ventanas (OVER)
+Ejemplo simple:
+SELECT country, COUNT(*) as total_users
+FROM users
+GROUP BY country
+ORDER BY total_users DESC;
+4️⃣ Integración con otras herramientas
+Se conecta fácilmente con:
+Google Analytics
+Google Sheets
+Cloud Storage
+Dataflow
+5️⃣ Machine Learning integrado
+Con BigQuery ML puedes entrenar modelos directamente usando SQL:
+CREATE MODEL modelo_ventas
+OPTIONS(model_type='linear_reg') AS
+SELECT ventas, publicidad
+FROM dataset.tabla;
+💰 ¿Cómo cobra?
+BigQuery tiene dos modelos principales:
+Por almacenamiento (cuánto guardas)
+Por procesamiento (cuántos datos escanean tus consultas)
+También existe modo de capacidad fija (reservas).
+🚀 Ventajas
+✅ No requiere administración
+✅ Escala automáticamente
+✅ Ideal para análisis masivo
+✅ Alta disponibilidad
+✅ Seguridad integrada
+⚠️ Desventajas
+❌ Puede ser costoso si no optimizas consultas
+❌ No es base de datos transaccional (no es ideal para apps en tiempo real tipo CRUD)
+🆚 ¿Con qué se compara?
+Amazon Redshift
+Snowflake
+Azure Synapse Analytics
+Si quieres, puedo explicártelo más técnico (arquitectura interna), más práctico (casos reales de uso) o compararlo con algo que ya conozcas 😊
+
+Tú dijiste:
+investiga y cuéntame sobre dékuple, que hacen, tengo entrevista en dos días, Pasar al contenido principal
+LinkedIn
+
+Empleos
+Borrar texto
+Borrar texto
+
+Iniciar sesión
+Unirse ahora
+Cualquier momento
+Empresa
+Tipo de empleo
+Nivel de experiencia
+En remoto
+Recibe una notificación cuando se publique un nuevo empleo
+Crear alerta
+
+1 empleos de Dékuple España en España
+Data Analyst Junior
+
+Data Analyst Junior
+Dékuple España
+Madrid
+Hace 3 horas
+Has visto todos los empleos para esta búsqueda
+Buscar cargos similares
+
+Empleos de SEUR
+Empleos de Cabify
+Empleos de Redactor creativo
+ Dékuple España
+Data Analyst Junior
+Dékuple España  Madrid
+Hace 3 horas  63 solicitudes
+    
+Descubre a quién ha contratado Dékuple España para este puesto
+Solicitar
+Guardar
+
+Somos un grupo de data marketing francés líder en Europa y cotizado en la bolsa de París, buscamos un Data Analyst Junior,  en dependencia directa de la Dirección de Producto, se encargará de llevar a cabo una función de análisis de datos (cuantitativo y cualitativo- Business Intelligence), apoyando la toma de decisiones y asegurando la eficiencia operativa en la gestión de las campañas confiadas por los clientes. Si ello te apasiona y quieres unirte a nuestro equipo en Madrid y compartir nuestros valores fundamentales: el espíritu de conquista, la colaboración y el respeto. Inscríbete en la oferta, ¡¡te esperamos!! 😉
+
+🎯 ¿Cómo contribuyes a cumplir nuestros objetivos y misión?
+Desarrollando consultas con bases de datos (BigQuery, o Postgres), para hacer llegar los resultados de esas queries a los usuarios (bien en ficheros, o bien configurando y administrando nuestra herramienta de visualización de datos, Google LookerStudio).
+Proponiendo desarrollos y redactando requisitos funcionales para aquellos casos en que un desarrollo en nuestras aplicaciones mejoraría nuestra eficiencia o productividad.
+Manteniendo actualizada toda la documentación, para que en caso de ausencia cualquier otra persona pueda retomar cualquiera de los trabajos anteriores
+Análisis pormenorizado de campañas, con la presentación y posterior puesta en marcha de una propuesta de valor a nuestro cliente en base a las conclusiones del mismo.
+Búsqueda y análisis de factores que potencien la retención del cliente en base a las características de las campaña.
+Proponer soluciones creativas/novedosas a necesidades preexistentes o nuevas del cliente en base a la detección de una necesidad mediante el análisis de datos y con el objetivo de diferenciar a Dékuple en el mercado.
+Contribuir con nuevas metodologías de análisis de datos y presentación de resultados, siguiendo el principio de que sean comprensibles para cualquier miembro de la firma. 
+
+👤Perfil que necesitamos
+Grado universitario en Informática, Telecomunicaciones, Estadística o similares, con especialidad en áreas relacionadas con Business Intelligence.
+Experiencia de al menos 1-2 años en funciones similares 
+Conocimientos en SQL y Bases de Datos: Experiencia en la creación de queries SQL para extracción y manipulación de datos en bases de datos relacionales (como PostgreSQL o MySQL).
+Experiencia en Herramientas de Visualización de Datos: Dominio de Looker Studio (o similar como Tableau, Power BI) para la creación de dashboards e informes visuales.
+Capacidad de Análisis y Resolución de Problemas: Habilidad para analizar datos, identificar patrones, tendencias y proponer insights relevantes.
+Conocimientos Básicos de Modelado de Datos: Entendimiento básico sobre modelos de datos y diseño de estructuras de datos eficientes.
+Manejo de Hojas de Cálculo Avanzado: Habilidad para manejar Excel o Google Sheets a nivel avanzado, incluyendo el uso de fórmulas, tablas dinámicas y gráficos.
+Se valorará positivamente el dominio del inglés.
+Importante capacidad y visión sistémica.
+Trabajo en equipo y colaboración con otros departamentos.
+
+🎁 ¿Qué te ofrecemos?
+Flexibilidad laboral: Disfrutarás de nuestra política Flexiwork, con teletrabajo dos días a la semana y tres en la oficina, además de 4 semanas completas de teletrabajo adicionales al año.
+Seguro médico: Incluido como parte de la retribución flexible, con una exención fiscal del 100%.
+Descuento en parking: Para que tu llegada a la oficina sea más cómoda, ofrecemos un descuento del 50% en el parking del edificio.
+
+📍Ubicación:
+Nuestras oficinas están en Madrid capital, en la calle Rufino González (zona metro Suanzes).
+
+🌈 ¿Te atreves?
+En Dékuple, buscamos la diversidad y por eso nuestros procesos de selección garantizan la no exclusión ni discriminación de ningún perfil. Te vas a encontrar un gran ambiente de trabajo y lo cuidamos mucho, por eso es importante que compartas nuestros valores y momento vital.
+Si te interesa unirte a nuestro equipo, ¡te estamos esperando!
+Envía tu CV a talento@dekuple.es y comienza tu próximo reto con nosotros.
+
+Show less 
+Nivel de antigüedad
+Intermedio
+Tipo de empleo
+Jornada completa
+Función laboral
+Tecnología de la información
+Sectores
+Servicios de publicidad
+    
+Las recomendaciones duplican tus probabilidades de conseguir una entrevista con Dékuple España
+Mira a quién conoces
+Más búsquedas 
+LinkedIn
+© 2026
+Acerca de
+Accesibilidad
+Condiciones de uso
+Política de privacidad
+Política de cookies
+Política de copyright
+Política de marca
+Controles de invitados
+Pautas comunitarias
+Idioma
+Aceptar y unirse a LinkedIn
+Al hacer clic en «Continuar» para unirte o iniciar sesión, aceptas las Condiciones de uso, la Política de privacidad y la Política de cookies de LinkedIn.
+
+Pasar al contenido principal
+LinkedIn
+
+Empleos
+Borrar texto
+Borrar texto
+
+Iniciar sesión
+Unirse ahora
+Cualquier momento
+Empresa
+Tipo de empleo
+Nivel de experiencia
+En remoto
+Recibe una notificación cuando se publique un nuevo empleo
+Crear alerta
+
+1 empleos de Dékuple España en España
+Data Analyst Junior
+
+Data Analyst Junior
+Dékuple España
+Madrid
+Hace 3 horas
+Has visto todos los empleos para esta búsqueda
+Buscar cargos similares
+
+Empleos de SEUR
+Empleos de Cabify
+Empleos de Redactor creativo
+ Dékuple España
+Data Analyst Junior
+Dékuple España  Madrid
+Hace 3 horas  63 solicitudes
+    
+Descubre a quién ha contratado Dékuple España para este puesto
+Solicitar
+Guardar
+
+Somos un grupo de data marketing francés líder en Europa y cotizado en la bolsa de París, buscamos un Data Analyst Junior,  en dependencia directa de la Dirección de Producto, se encargará de llevar a cabo una función de análisis de datos (cuantitativo y cualitativo- Business Intelligence), apoyando la toma de decisiones y asegurando la eficiencia operativa en la gestión de las campañas confiadas por los clientes. Si ello te apasiona y quieres unirte a nuestro equipo en Madrid y compartir nuestros valores fundamentales: el espíritu de conquista, la colaboración y el respeto. Inscríbete en la oferta, ¡¡te esperamos!! 😉
+
+🎯 ¿Cómo contribuyes a cumplir nuestros objetivos y misión?
+Desarrollando consultas con bases de datos (BigQuery, o Postgres), para hacer llegar los resultados de esas queries a los usuarios (bien en ficheros, o bien configurando y administrando nuestra herramienta de visualización de datos, Google LookerStudio).
+Proponiendo desarrollos y redactando requisitos funcionales para aquellos casos en que un desarrollo en nuestras aplicaciones mejoraría nuestra eficiencia o productividad.
+Manteniendo actualizada toda la documentación, para que en caso de ausencia cualquier otra persona pueda retomar cualquiera de los trabajos anteriores
+Análisis pormenorizado de campañas, con la presentación y posterior puesta en marcha de una propuesta de valor a nuestro cliente en base a las conclusiones del mismo.
+Búsqueda y análisis de factores que potencien la retención del cliente en base a las características de las campaña.
+Proponer soluciones creativas/novedosas a necesidades preexistentes o nuevas del cliente en base a la detección de una necesidad mediante el análisis de datos y con el objetivo de diferenciar a Dékuple en el mercado.
+Contribuir con nuevas metodologías de análisis de datos y presentación de resultados, siguiendo el principio de que sean comprensibles para cualquier miembro de la firma. 
+
+👤Perfil que necesitamos
+Grado universitario en Informática, Telecomunicaciones, Estadística o similares, con especialidad en áreas relacionadas con Business Intelligence.
+Experiencia de al menos 1-2 años en funciones similares 
+Conocimientos en SQL y Bases de Datos: Experiencia en la creación de queries SQL para extracción y manipulación de datos en bases de datos relacionales (como PostgreSQL o MySQL).
+Experiencia en Herramientas de Visualización de Datos: Dominio de Looker Studio (o similar como Tableau, Power BI) para la creación de dashboards e informes visuales.
+Capacidad de Análisis y Resolución de Problemas: Habilidad para analizar datos, identificar patrones, tendencias y proponer insights relevantes.
+Conocimientos Básicos de Modelado de Datos: Entendimiento básico sobre modelos de datos y diseño de estructuras de datos eficientes.
+Manejo de Hojas de Cálculo Avanzado: Habilidad para manejar Excel o Google Sheets a nivel avanzado, incluyendo el uso de fórmulas, tablas dinámicas y gráficos.
+Se valorará positivamente el dominio del inglés.
+Importante capacidad y visión sistémica.
+Trabajo en equipo y colaboración con otros departamentos.
+
+🎁 ¿Qué te ofrecemos?
+Flexibilidad laboral: Disfrutarás de nuestra política Flexiwork, con teletrabajo dos días a la semana y tres en la oficina, además de 4 semanas completas de teletrabajo adicionales al año.
+Seguro médico: Incluido como parte de la retribución flexible, con una exención fiscal del 100%.
+Descuento en parking: Para que tu llegada a la oficina sea más cómoda, ofrecemos un descuento del 50% en el parking del edificio.
+
+📍Ubicación:
+Nuestras oficinas están en Madrid capital, en la calle Rufino González (zona metro Suanzes).
+
+🌈 ¿Te atreves?
+En Dékuple, buscamos la diversidad y por eso nuestros procesos de selección garantizan la no exclusión ni discriminación de ningún perfil. Te vas a encontrar un gran ambiente de trabajo y lo cuidamos mucho, por eso es importante que compartas nuestros valores y momento vital.
+Si te interesa unirte a nuestro equipo, ¡te estamos esperando!
+Envía tu CV a talento@dekuple.es y comienza tu próximo reto con nosotros.
+
+Show less 
+Nivel de antigüedad
+Intermedio
+Tipo de empleo
+Jornada completa
+Función laboral
+Tecnología de la información
+Sectores
+Servicios de publicidad
+    
+Las recomendaciones duplican tus probabilidades de conseguir una entrevista con Dékuple España
+Mira a quién conoces
+Más búsquedas 
+LinkedIn
+© 2026
+Acerca de
+Accesibilidad
+Condiciones de uso
+Política de privacidad
+Política de cookies
+Política de copyright
+Política de marca
+Controles de invitados
+Pautas comunitarias
+Idioma
+Aceptar y unirse a LinkedIn
+Al hacer clic en «Continuar» para unirte o iniciar sesión, aceptas las Condiciones de uso, la Política de privacidad y la Política de cookies de LinkedIn.
+
+lo que he tocado yo y sé es python con sus librerías de pandas matplotlib etc, sql(mysql), powerbi, excel avanzado. lo que nunca he tocado es looker studio, bigquery, postgresql. recomiéndame que hago. primero explícame que me van a preguntar. luego como prepararme y luego explícame sobre lo que piden y no conozco, modelado de datos si que conozco
+
+ChatGPT Plus
+Dékuple
+
+https://cdn-images.welcometothejungle.com/vBWOmZQulDri7Bv_wXbhYabEOqWKNwldYOTdoeE-sBM/rs%3Aauto%3A980%3A%3A/q%3A85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZS9maWxlLzE0OTcvMTczMjYzLzY3YWQ0NzljLTAwZjAtNDkzMC05NzE0LTc1NWYyM2I4MGFiZi5qcGc
+
+https://matrixbcg.com/cdn/shop/files/dekuple-marketing-mix.png?v=1754772899&width=1100
+
+https://cdn.prod.website-files.com/663483dda70a3610b475068f/690a32f6a5bb8d906afe1315_Cometly%20Analytics%20Dashboard.png
+4
+1️⃣ ¿Qué es Dékuple y qué hacen?
+Dékuple es un grupo francés de data marketing, líder en Europa y cotizado en la bolsa de París. Su foco está en:
+🎯 Marketing basado en datos (data-driven marketing)
+📊 Optimización de campañas
+👥 Adquisición y retención de clientes
+📈 Performance marketing y CRM
+🤖 Activación de datos en múltiples canales (email, digital ads, etc.)
+No son solo agencia creativa: son marketing + tecnología + datos.
+Eso significa que el rol de Data Analyst no es solo hacer dashboards, sino:
+Medir campañas
+Analizar rentabilidad
+Detectar oportunidades de optimización
+Proponer mejoras que impacten en negocio
+🔎 1. ¿Qué te van a preguntar en la entrevista?
+Por la descripción del puesto, espera preguntas en 4 bloques:
+🧠 A) SQL y bases de datos
+Seguramente:
+Diferencia entre INNER JOIN y LEFT JOIN
+Cómo optimizar una query lenta
+Agrupaciones (GROUP BY)
+Subqueries
+Casos prácticos tipo:
+"Tenemos campañas, usuarios y conversiones. ¿Cómo calcularías el CPA?"
+También pueden preguntarte:
+Diferencias entre MySQL y PostgreSQL
+Qué es una clave primaria / foránea
+Índices
+👉 Aquí estás bien preparado porque ya manejas MySQL.
+📊 B) Visualización y BI
+Te pueden preguntar:
+Cómo decides qué gráfico usar
+Qué KPI pondrías en un dashboard de campaña
+Cómo presentarías resultados a alguien no técnico
+Diferencia entre métrica y dimensión
+Aquí Power BI y Excel avanzado te ayudan muchísimo.
+📈 C) Marketing & negocio
+MUY importante: este rol no es solo técnico.
+Pueden preguntarte:
+
+¿Qué métricas usarías para medir una campaña?
+¿Cómo mejorarías la retención?
+¿Qué es el ROI?
+Diferencia entre CTR, CPC, CPA, LTV
+Si una campaña baja en conversiones, ¿qué analizarías?
+Prepárate esta parte bien.
+🧩 D) Pensamiento analítico
+Te pueden poner un caso:
+"Una campaña tiene muchas impresiones pero pocas conversiones. ¿Qué harías?"
+Buscan:
+Enfoque estructurado
+Hipótesis
+Capacidad de priorización
+Propuesta accionable
+🚀 2. Cómo prepararte en 2 días (plan realista)
+Te hago plan táctico:
+📅 Día 1 – Técnico
+✅ Repasar SQL avanzado
+JOINs
+GROUP BY + HAVING
+Subqueries
+CASE WHEN
+Window functions (aunque sea por encima)
+Haz 20 ejercicios en HackerRank o LeetCode SQL.
+✅ Entender BigQuery (no necesitas dominarlo)
+Solo necesitas saber:
+Es un data warehouse en la nube de Google
+Serverless
+SQL estándar
+Se paga por datos escaneados
+Ideal para grandes volúmenes
+No necesitas haberlo usado.
+✅ Ver 2 tutoriales rápidos de Looker Studio
+Es como Power BI pero más simple.
+Conceptos clave:
+
+Conectar fuente de datos
+Crear gráficos
+Dimensiones vs métricas
+Filtros
+Si sabes Power BI, lo entiendes rápido.
+📅 Día 2 – Negocio y marketing
+Aprende estos KPIs:
+CTR = clicks / impresiones
+CPC = coste / clicks
+CPA = coste / conversiones
+ROI = (ingresos - coste) / coste
+LTV = valor total del cliente
+Churn rate
+Retención
+Y prepárate para explicar cómo mejorar:
+Segmentación
+Funnel
+A/B testing
+Análisis por cohortes
+🧱 3. Lo que no conoces (explicado fácil)
+🔵 BigQuery (versión práctica)
+Es básicamente:
+“Una base de datos gigante en la nube optimizada para análisis masivo.”
+Diferencias clave vs MySQL:
+MySQL	BigQuery
+Base transaccional	Base analítica
+Manual	Serverless
+Escala limitada	Escala enorme
+Índices	Columnar
+No necesitas instalar nada.
+Solo haces SQL.
+🟣 PostgreSQL
+Es otra base relacional como MySQL.
+Diferencias menores:
+Más estricta con tipos
+Mejor para funciones avanzadas
+Muy usada en startups
+Si sabes MySQL → sabes PostgreSQL al 80%.
+🟡 Looker Studio
+Es una herramienta de dashboards de Google.
+Piensa:
+
+Power BI → más potente
+Looker Studio → más ligero y rápido
+
+Conceptos:
+
+Fuente de datos
+Métricas
+Dimensiones
+Filtros
+Parámetros
+Si dominas Power BI, vas sobrado.
+🧠 4. Lo que realmente buscan (más importante que herramientas)
+Ellos valoran mucho:
+📌 Pensamiento estructurado
+📌 Capacidad de traducir datos en decisiones
+📌 Documentación
+📌 Trabajo en equipo
+📌 Mentalidad de negocio
+El junior no tiene que saber todo.
+Tiene que saber pensar bien.
+💬 Cómo enfocar tu discurso en la entrevista
+En vez de decir:
+“No sé BigQuery”
+Di:
+“No he trabajado directamente con BigQuery, pero estoy familiarizado con SQL estándar y ya he estado revisando su funcionamiento como data warehouse columnar en Google Cloud. Creo que la curva de aprendizaje sería rápida.”
+Eso cambia completamente la percepción.
+🎯 Mi diagnóstico honesto
+Estás bastante bien posicionado:
+✔ Python + pandas → fuerte
+✔ SQL → fuerte
+✔ Power BI → muy útil
+✔ Excel avanzado → muy valorado
+✔ Modelado de datos → clave
+
+Lo único nuevo es BigQuery y Looker Studio, que son adaptaciones.
+
+No estás en desventaja técnica.
+La clave será cómo estructures tu pensamiento.
+
+Si quieres, puedo:
+Simularte una entrevista real
+Prepararte respuestas modelo
+Hacer un caso práctico tipo Dékuple
+O ayudarte a preparar tu pitch inicial de 2 minutos
+¿Quieres que hagamos una simulación?
+
+
+Voz
